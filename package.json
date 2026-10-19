@@ -1,0 +1,36 @@
+{
+  "name": "ipcomet",
+  "version": "0.1.0",
+  "description": "What is my IP? Print your public IP address and look up any IP or domain from the terminal, using the free ipcomet.com API.",
+  "keywords": [
+    "ip",
+    "what-is-my-ip",
+    "public-ip",
+    "my-ip",
+    "ip-lookup",
+    "geolocation",
+    "cli"
+  ],
+  "homepage": "https://ipcomet.com/developers",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ishant-Singh-Dev/ipcomet-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ishant-Singh-Dev/ipcomet-cli/issues"
+  },
+  "license": "MIT",
+  "author": "Ishant Singh (https://ipcomet.com/about)",
+  "bin": {
+    "ipcomet": "bin/ipcomet.js"
+  },
+  "files": [
+    "bin/"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  }
+}
